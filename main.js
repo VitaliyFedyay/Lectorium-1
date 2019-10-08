@@ -1,4 +1,4 @@
-var result = function (arr) {
+var result = function(arr) {
   var max = arr[0]
   var min = max
   var sum = 0
