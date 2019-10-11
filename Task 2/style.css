@@ -1,4 +1,3 @@
-
 body {
   background: #e7e7e4;
   font-family: "Roboto Condensed", sans-serif;
@@ -6,7 +5,12 @@ body {
 .diagonal-line {
   width: 100%;
   height: 100%;
-  background: linear-gradient(to top left, #7acec3 calc(50% - 1px), #fff, #7acec3 calc(50% + 1px));
+  background: linear-gradient(
+    to top left,
+    #7acec3 calc(50% - 1px),
+    #fff,
+    #7acec3 calc(50% + 1px)
+  );
 }
 .header {
   width: 100%;
@@ -17,7 +21,7 @@ body {
 @media (max-width: 990px) {
   .header {
     height: 90vh;
- }
+  }
 }
 
 .header .wrapper {
@@ -75,7 +79,6 @@ body {
     text-transform: uppercase;
   }
 }
-
 
 .header-promo-block {
   max-width: 160px;
@@ -136,7 +139,7 @@ body {
 @media (max-width: 990px) {
   .header-contact-menu-icon {
     padding-top: 15%;
-    width: 60%;;
+    width: 60%;
   }
 }
 
@@ -222,7 +225,12 @@ body {
 }
 .projects .diagonal-line {
   padding: 15%;
-  background: linear-gradient(to top left, #ebb240 calc(50% - 1px), #fff, #ebb240 calc(50% + 1px));
+  background: linear-gradient(
+    to top left,
+    #ebb240 calc(50% - 1px),
+    #fff,
+    #ebb240 calc(50% + 1px)
+  );
 }
 .projects .wrapper {
   width: 100%;
@@ -731,7 +739,12 @@ body {
   padding: 10%;
   display: flex;
   flex-direction: column-reverse;
-  background: linear-gradient(to top left, #ff9b6d calc(50% - 1px), #fff, #ff9b6d calc(50% + 1px));
+  background: linear-gradient(
+    to top left,
+    #ff9b6d calc(50% - 1px),
+    #fff,
+    #ff9b6d calc(50% + 1px)
+  );
 }
 .studio .studio-title {
   height: 40%;
@@ -991,7 +1004,12 @@ body {
   padding: 10%;
   display: flex;
   flex-direction: column-reverse;
-  background: linear-gradient(to top left, #d4edbf calc(50% - 1px), #fff, #d4edbf calc(50% + 1px));
+  background: linear-gradient(
+    to top left,
+    #d4edbf calc(50% - 1px),
+    #fff,
+    #d4edbf calc(50% + 1px)
+  );
 }
 .news .block-title {
   height: 40%;
@@ -1078,12 +1096,12 @@ body {
 }
 
 .map-size {
-    position: relative;
-    left: 0;
-    margin-bottom: 0;
-    width: 97%;
-    height: 100%;
-  }
+  position: relative;
+  left: 0;
+  margin-bottom: 0;
+  width: 97%;
+  height: 100%;
+}
 
 .footer {
   background: #e7e7e4;
